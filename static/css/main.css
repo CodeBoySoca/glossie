@@ -1,0 +1,186 @@
+/*
+
+font-family: "americane", sans-serif;
+font-weight: 700;
+font-style: normal;
+
+font-family: "novel-sans-greek", sans-serif;
+font-weight: 500;
+font-style: normal;
+
+#EDEDED
+
+
+*/
+
+* {
+padding: 0;
+margin: 0;
+}
+
+html {
+box-sizing: border-box;
+}
+
+body {
+background: #030303;
+}
+
+.container {
+width: 100%;
+height: 100vh;
+padding: 2% 0; 
+}
+
+.container h1 {
+font: normal 700 7em "americane", sans-serif;
+color: #ededed;    
+text-align: center;
+}
+
+#admin {
+width: 50%;    
+}
+
+.form {
+border: 2px solid rgba(244, 244, 244, 0.1);
+border-radius: 30px;    
+padding: 50px;
+margin: 50px auto 0 auto;
+width: 45%;
+height: 325px;
+}
+
+.form h3 {
+font: normal 700 1.2em "americane", sans-serif;
+color: #ededed;
+letter-spacing: 2px;
+margin: 20px 0 20px 0;    
+}
+
+.txtFld {
+font: normal 300 1em "americane", sans-serif;        
+border-radius: 10px;       
+width: 100%;
+height: 40px; 
+padding: 0 0 0 5px;   
+margin-bottom: 25px;   
+}
+
+.form input[type='button'] {
+font: normal 700 1em "americane", sans-serif;  
+color: #ededed;  
+letter-spacing: 2px;
+background: transparent;    
+border: 2px solid rgba(244, 244, 244, 0.1);
+border-radius: 15px;      
+width: 65%;
+height: 50px;
+cursor: pointer;
+}
+
+.form textarea {
+font: normal 300 1em "americane", sans-serif;      
+border-radius: 10px;       
+width: 98.5%;
+height: 120px; 
+margin-bottom: 25px; 
+padding: 5px 0 0 5px;   
+}
+
+
+/* Login */
+
+
+/* Homepage */
+
+
+#toc {
+border-right: 1px solid rgba(244, 244, 244, 0.1);
+width: 85px;
+height: 100%;
+position: fixed;
+top: 0;
+left: 0;
+background: #030303;
+z-index: 9 !important;
+}
+
+#toc ul {
+margin: 50px auto 0 auto;
+display: block;    
+width: 25%;
+}
+
+#toc ul li {
+padding-bottom: 15px;
+}
+
+#toc ul li a {
+font: normal 300 1em "americane", sans-serif;         
+color: #fafafa;
+text-decoration: none;
+}
+
+main { 
+width: 50%;
+margin: 3% auto 0 auto;
+display: block;
+}
+
+#glossary-content-flex {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+flex-wrap: nowrap;
+padding-top: 35px;
+}
+
+#letter h1 { 
+font: normal 700 12em "americane", sans-serif !important;
+display: block;
+position: fixed;
+}
+
+#glossary-content-flex #letter {
+width: 30%;
+margin-right: 10%;
+}
+
+#glossary-content-flex .definition {
+width: 75%;
+border-bottom: 1px solid rgba(244, 244, 244, 0.1);  
+padding: 15px 0;
+margin: 25px 0;
+}
+
+.definition h6 {
+font: normal 600 1.2rem "americane", sans-serif;    
+color: #FDE49E;   
+}
+
+.definition p {
+font: normal 300 1em "novel-sans-greek", sans-serif;   
+color: #fafafa; 
+margin-top: 10px;
+}
+
+
+footer {
+position: fixed;
+bottom: 0;
+width: 100%;
+height: 100px; 
+background: #101010;
+z-index: -5 !important;
+}
+
+footer input {
+border: 3px solid #fafafa;
+background: transparent;
+border-radius: 15px;
+display: block;
+margin: 25px auto 0 auto;
+width: 15%;
+height: 45px;    
+}

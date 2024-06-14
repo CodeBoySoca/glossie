@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %}Glossie - A programmers glossary{% endblock %}
+{% block content %}
+<div class="container">
+    <main>
+    <h1>Glossie</h1>
+    <div class="form">
+        <h3>Log in</h3>
+        <form method="post">
+            <input type="text" name="username" placeholder=" Username" class="txtFld" required><br>
+            <input type="password" name="password" placeholder=" Password" class="txtFld" required><br>
+            <input type="button" value="Log in">
+        </form>
+    </div>
+</main>
+</div>
+{% endblock %}
